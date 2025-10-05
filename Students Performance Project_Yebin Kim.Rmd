@@ -25,7 +25,7 @@ First of all, I used my github as a data storage for this project so I just uplo
 
 ```{r}
 # Download kaggle data from github
-url <- "https://raw.githubusercontent.com/yebinkim86/students_performance/refs/heads/main/StudentsPerformance.csv"
+url <- "https://raw.githubusercontent.com/yebinkim000/students_performance/refs/heads/main/StudentsPerformance.csv"
 data <- read.csv(url)
 ```
 
@@ -384,6 +384,7 @@ However, in order to make this prediction model perform better and do more exact
 
 https://www.kaggle.com/datasets/adithyabshetty100/student-performance
 
-https://github.com/yebinkim86/students_performance
+https://github.com/yebinkim000/students_performance
 
 『Statistics and Data Science for Teachers』 by Anna Bargagliotti , Christine Franklin(2021)
+
