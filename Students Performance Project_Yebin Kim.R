@@ -1,5 +1,5 @@
 # Download kaggle data from github
-url <- "https://raw.githubusercontent.com/yebinkim86/students_performance/refs/heads/main/StudentsPerformance.csv"
+url <- "https://raw.githubusercontent.com/yebinkim000/students_performance/refs/heads/main/StudentsPerformance.csv"
 data <- read.csv(url)
 
 #Install packages that could be needed in this project
@@ -173,3 +173,4 @@ model_rf <- randomForest(average_score ~ gender+race_ethnicity+parental_level_of
 predicted_score_rf <- predict(model_rf, newdata = test_set)
 rmse_rf <- RMSE(test_set$average_score, predicted_score_rf)
 print(rmse_rf)
+
